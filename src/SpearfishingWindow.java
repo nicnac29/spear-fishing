@@ -29,6 +29,7 @@ public class SpearfishingWindow {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		JLabel label = loadImageFromComputer("spearo.jpg");
 	    panel.add(label);
+	    
 	    frame.pack();
 	}
 	public JLabel loadImageFromComputer(String fileName) {
